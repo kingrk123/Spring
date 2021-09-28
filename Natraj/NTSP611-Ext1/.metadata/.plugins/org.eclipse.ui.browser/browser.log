@@ -1,0 +1,310 @@
+
+Dec 23, 2019 18:26:24.35 NEW SESSION
+Dec 23, 2019 18:26:24.35 [5408:6692:1223/182624.355:ERROR:socket_stream.cc(218)] Closing stream with result -2
+
+Dec 24, 2019 18:41:26.22 NEW SESSION
+Dec 24, 2019 18:41:26.22 [Child 284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 24, 2019 18:41:26.23 [Child 284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 24, 2019 18:41:26.23 [Child 500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 24, 2019 18:41:26.24 [Child 500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 24, 2019 18:41:26.26 [Child 7068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 24, 2019 18:41:26.27 [Child 7068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 24, 2019 18:41:26.28 [Parent 5876, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 24, 2019 18:41:26.28 [Child 3004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 24, 2019 18:41:26.29 [Child 3004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 24, 2019 18:41:26.74 
+Dec 24, 2019 18:41:26.75 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 24, 2019 18:41:26.75 
+
+Dec 25, 2019 19:41:26.38 NEW SESSION
+Dec 25, 2019 19:41:26.38 [Parent 6624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 25, 2019 19:41:26.66 [Child 5524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 25, 2019 19:41:26.68 [Child 5524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 25, 2019 19:41:26.70 [Parent 6624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 25, 2019 19:41:26.71 [Child 4580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 25, 2019 19:41:26.72 [Child 4580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 25, 2019 19:41:26.95 [Parent 6624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 25, 2019 19:41:26.96 [Child 1044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 25, 2019 19:41:26.96 [Child 1044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 25, 2019 19:41:27.03 
+Dec 25, 2019 19:41:27.03 ###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.05 
+Dec 25, 2019 19:41:27.05 
+Dec 25, 2019 19:41:27.06 ###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.06 
+Dec 25, 2019 19:41:27.06 
+Dec 25, 2019 19:41:27.08 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.08 
+Dec 25, 2019 19:41:27.08 
+Dec 25, 2019 19:41:27.10 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.10 
+Dec 25, 2019 19:41:27.10 
+Dec 25, 2019 19:41:27.11 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.11 
+Dec 25, 2019 19:41:27.11 
+Dec 25, 2019 19:41:27.13 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.13 
+Dec 25, 2019 19:41:27.13 
+Dec 25, 2019 19:41:27.14 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.14 
+Dec 25, 2019 19:41:27.14 
+Dec 25, 2019 19:41:27.14 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.16 
+Dec 25, 2019 19:41:27.16 
+Dec 25, 2019 19:41:27.16 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.17 
+Dec 25, 2019 19:41:27.17 
+Dec 25, 2019 19:41:27.17 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.19 
+Dec 25, 2019 19:41:27.19 
+Dec 25, 2019 19:41:27.19 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.20 
+Dec 25, 2019 19:41:27.20 
+Dec 25, 2019 19:41:27.20 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.22 
+Dec 25, 2019 19:41:27.22 
+Dec 25, 2019 19:41:27.22 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Dec 25, 2019 19:41:27.24 
+
+Dec 26, 2019 19:45:25.14 NEW SESSION
+Dec 26, 2019 19:45:25.14 [Parent 516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 26, 2019 19:45:25.80 [Child 4216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 26, 2019 19:45:25.80 [Child 4216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 26, 2019 19:45:25.81 [Parent 516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 26, 2019 19:45:25.82 [Parent 516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 26, 2019 19:45:25.82 [Child 5088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 26, 2019 19:45:25.83 
+Dec 26, 2019 19:45:25.83 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:25.84 
+Dec 26, 2019 19:45:25.84 [Parent 516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 26, 2019 19:45:25.85 
+Dec 26, 2019 19:45:25.85 ###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:25.86 
+Dec 26, 2019 19:45:25.87 
+Dec 26, 2019 19:45:25.87 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:25.88 
+Dec 26, 2019 19:45:25.88 
+Dec 26, 2019 19:45:25.89 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:25.89 
+Dec 26, 2019 19:45:25.90 
+Dec 26, 2019 19:45:25.90 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:25.91 
+Dec 26, 2019 19:45:25.91 
+Dec 26, 2019 19:45:25.92 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:25.92 
+Dec 26, 2019 19:45:25.93 
+Dec 26, 2019 19:45:25.93 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:25.94 
+Dec 26, 2019 19:45:25.94 
+Dec 26, 2019 19:45:25.95 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:25.95 
+Dec 26, 2019 19:45:25.96 
+Dec 26, 2019 19:45:25.96 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:25.97 
+Dec 26, 2019 19:45:25.97 
+Dec 26, 2019 19:45:25.98 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:25.98 
+Dec 26, 2019 19:45:25.99 
+Dec 26, 2019 19:45:25.99 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:26.00 
+Dec 26, 2019 19:45:26.00 
+Dec 26, 2019 19:45:26.01 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Dec 26, 2019 19:45:26.01 
+
+Dec 28, 2019 09:58:14.34 NEW SESSION
+Dec 28, 2019 09:58:14.34 [Parent 6252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 09:58:14.39 [Child 6656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 09:58:14.40 [Child 6656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 09:58:16.70 [Parent 6252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 09:58:16.71 [Child 5892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 09:58:16.72 [Child 5892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:02:52.17 [Parent 6252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:02:52.19 [Parent 6252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:02:52.20 
+Dec 28, 2019 10:02:52.21 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 28, 2019 10:02:52.21 
+Dec 28, 2019 10:02:52.22 [Child 4308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:02:52.22 [Child 4308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:02:52.62 
+Dec 28, 2019 10:02:52.62 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 28, 2019 10:02:52.63 
+Dec 28, 2019 10:31:10.00 [Child 9192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:31:10.01 [Child 9192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:31:10.02 [Child 4864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:31:10.02 [Child 4864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:31:10.03 [Child 7320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:31:10.03 [Parent 3612, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:31:10.04 [Child 648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:31:10.04 [Child 648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 28, 2019 10:31:10.54 
+Dec 28, 2019 10:31:10.55 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 28, 2019 10:31:10.55 
+
+Dec 30, 2019 19:28:49.71 NEW SESSION
+Dec 30, 2019 19:28:49.71 [Child 2352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 30, 2019 19:28:49.76 [Child 2352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 30, 2019 19:28:50.40 [Child 2332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 30, 2019 19:28:50.41 [Child 2332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+Dec 31, 2019 19:03:11.25 NEW SESSION
+Dec 31, 2019 19:03:11.25 [Parent 4824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:03:11.32 [Child 6604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:03:11.33 [Child 6604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:03:12.48 [Child 5228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:03:12.48 [Child 5228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:40:53.87 [Child 1852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:40:53.87 [Parent 4824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:40:53.88 [Child 2428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:40:53.88 [Child 2428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:40:53.90 
+Dec 31, 2019 19:40:53.90 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:53.90 
+Dec 31, 2019 19:40:53.91 [Parent 4824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:40:53.91 [Child 7092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:40:53.91 
+Dec 31, 2019 19:40:53.93 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:53.93 
+Dec 31, 2019 19:40:53.93 [Child 1852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:40:53.94 
+Dec 31, 2019 19:40:53.94 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 31, 2019 19:40:53.94 
+Dec 31, 2019 19:40:54.23 [Parent 4824, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:40:54.23 [Child 3052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Dec 31, 2019 19:40:54.24 
+Dec 31, 2019 19:40:54.24 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:54.24 
+Dec 31, 2019 19:40:54.26 
+Dec 31, 2019 19:40:54.26 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:54.26 
+Dec 31, 2019 19:40:54.26 
+Dec 31, 2019 19:40:54.27 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:54.27 
+Dec 31, 2019 19:40:54.27 
+Dec 31, 2019 19:40:54.29 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:54.29 
+Dec 31, 2019 19:40:54.29 
+Dec 31, 2019 19:40:54.30 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:54.30 
+Dec 31, 2019 19:40:54.30 
+Dec 31, 2019 19:40:54.32 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:54.32 
+Dec 31, 2019 19:40:54.32 
+Dec 31, 2019 19:40:54.32 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:54.34 
+Dec 31, 2019 19:40:54.34 
+Dec 31, 2019 19:40:54.34 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:54.34 
+Dec 31, 2019 19:40:54.35 
+Dec 31, 2019 19:40:54.35 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Dec 31, 2019 19:40:54.35 
+
+Jan 01, 2020 19:14:41.77 NEW SESSION
+Jan 01, 2020 19:14:41.77 [Parent 4692, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:14:41.88 [Child 5844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:14:41.88 [Child 5844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:14:41.89 [Child 5640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:14:41.91 [Parent 4692, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:14:42.46 
+Jan 01, 2020 19:14:42.47 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jan 01, 2020 19:14:42.47 
+Jan 01, 2020 19:19:23.48 [Parent 3500, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:27:10.22 [Parent 3500, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:27:10.23 [Child 7156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:27:10.25 [Child 7156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:52:01.81 [Child 6724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:52:02.00 [Child 2516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:52:02.01 [Child 2516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:52:02.07 [Parent 3500, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 01, 2020 19:52:02.07 
+Jan 01, 2020 19:52:02.08 ###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.08 
+Jan 01, 2020 19:52:02.09 
+Jan 01, 2020 19:52:02.10 ###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.11 
+Jan 01, 2020 19:52:02.11 
+Jan 01, 2020 19:52:02.12 ###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.12 
+Jan 01, 2020 19:52:02.13 
+Jan 01, 2020 19:52:02.13 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.14 
+Jan 01, 2020 19:52:02.15 
+Jan 01, 2020 19:52:02.15 ###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.16 
+Jan 01, 2020 19:52:02.16 
+Jan 01, 2020 19:52:02.17 ###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.17 
+Jan 01, 2020 19:52:02.18 
+Jan 01, 2020 19:52:02.19 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.19 
+Jan 01, 2020 19:52:02.20 
+Jan 01, 2020 19:52:02.20 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.21 
+Jan 01, 2020 19:52:02.21 
+Jan 01, 2020 19:52:02.22 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.22 
+Jan 01, 2020 19:52:02.23 
+Jan 01, 2020 19:52:02.23 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.24 
+Jan 01, 2020 19:52:02.25 
+Jan 01, 2020 19:52:02.25 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.25 
+Jan 01, 2020 19:52:02.26 
+Jan 01, 2020 19:52:02.26 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.28 
+Jan 01, 2020 19:52:02.28 
+Jan 01, 2020 19:52:02.30 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.30 
+Jan 01, 2020 19:52:02.30 
+Jan 01, 2020 19:52:02.31 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.31 
+Jan 01, 2020 19:52:02.31 
+Jan 01, 2020 19:52:02.33 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.33 
+Jan 01, 2020 19:52:02.33 
+Jan 01, 2020 19:52:02.34 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Jan 01, 2020 19:52:02.34 
+
+Jan 02, 2020 19:38:31.30 NEW SESSION
+Jan 02, 2020 19:38:31.30 [Parent 1412, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 02, 2020 19:38:31.53 [Child 4024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 02, 2020 19:38:31.54 [Child 7576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 02, 2020 19:38:31.54 [Child 7576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 02, 2020 19:38:31.55 [Child 6368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 02, 2020 19:38:31.56 
+Jan 02, 2020 19:38:31.56 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.57 
+Jan 02, 2020 19:38:31.59 [Parent 1412, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 02, 2020 19:38:31.60 [Child 4840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1575282935/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Jan 02, 2020 19:38:31.61 
+Jan 02, 2020 19:38:31.61 ###!!! [Child][MessageChannel] Error: (msgtype=0x37010E,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.62 
+Jan 02, 2020 19:38:31.62 
+Jan 02, 2020 19:38:31.63 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.64 
+Jan 02, 2020 19:38:31.65 
+Jan 02, 2020 19:38:31.66 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.66 
+Jan 02, 2020 19:38:31.67 
+Jan 02, 2020 19:38:31.68 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.68 
+Jan 02, 2020 19:38:31.69 
+Jan 02, 2020 19:38:31.69 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.70 
+Jan 02, 2020 19:38:31.71 
+Jan 02, 2020 19:38:31.71 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.72 
+Jan 02, 2020 19:38:31.73 
+Jan 02, 2020 19:38:31.73 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.74 
+Jan 02, 2020 19:38:31.74 
+Jan 02, 2020 19:38:31.75 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.75 
+Jan 02, 2020 19:38:31.76 
+Jan 02, 2020 19:38:31.77 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.77 
+Jan 02, 2020 19:38:31.78 
+Jan 02, 2020 19:38:31.78 ###!!! [Child][MessageChannel] Error: (msgtype=0x370106,name=PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.79 
+Jan 02, 2020 19:38:31.79 
+Jan 02, 2020 19:38:31.80 ###!!! [Child][MessageChannel] Error: (msgtype=0x370124,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+Jan 02, 2020 19:38:31.80 

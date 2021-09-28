@@ -1,0 +1,11 @@
+#Server Managed JDBC DataSource
+spring:
+  datasource:
+    jndi-name: java:/comp/env/DsJndi
+      #view Reoslver cfg
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+        
+    

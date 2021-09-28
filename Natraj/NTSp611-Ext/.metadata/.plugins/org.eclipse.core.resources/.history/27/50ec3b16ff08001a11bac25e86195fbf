@@ -1,0 +1,24 @@
+package com.nt.config;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.zaxxer.hikari.HikariDataSource;
+
+@Configuration
+public class PersistenceConfig {
+	
+	@Bean(name="hkDs")
+	public   DataSource   createDS() {
+		HikariDataSource  hds=null;
+		hds=new HikariDataSource();
+		hds.setDriverClassName("oracle.jdbc.driver.OracleDriver");
+		hds.setJdbcUrl("jdbc:oracle:thin:@localhost:1521:xe");
+		hds.setUsername("system");
+		hds.setPassword("manager");
+		return hds;
+	}
+
+}

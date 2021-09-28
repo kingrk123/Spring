@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:batch="http://www.springframework.org/schema/batch"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/batch https://www.springframework.org/schema/batch/spring-batch-3.0.xsd">
+
+ <!-- RowMapper -->
+ <bean id="examRowMapper"  class="com.nt.rowmapper.ExamResultRowMapper"/>
+ 
+ <!-- Cfg Item Reader -->
+ <bean id="jciReader"  class="org.springframework.batch.item.database.JdbcCursorItemReader">
+     <property name="dataSource"  ref="hkDs"/>
+     <property name="sql"   value="SELECT ID,SEMESTER, DOB, PERCENTAGE FROM EXAM_RESULT"/>
+     <property name="rowMapper"  ref="examRowMapper"/>
+ </bean>
+ 
+ <!-- cfg Item Processor -->
+ <bean id="erProcessor"  class="com.nt.processor.ExamResultProcessor"/>
+ 
+ <!-- Cfg ItemWriter -->
+ <!-- ItemWriter writes a line into output CSV file -->
+	<bean id="ffiWriter" class="org.springframework.batch.item.file.FlatFileItemWriter">
+		<property name="resource" value="file:csv/SuperBrains.csv" />
+		<property name="lineAggregator">
+			<!-- An Aggregator which converts an object into delimited list of strings -->
+			<bean	class="org.springframework.batch.item.file.transform.DelimitedLineAggregator">
+				<property name="delimiter" value="," />
+				<property name="fieldExtractor">
+					<!-- Extractor which returns the value of beans property through reflection -->
+					<bean	class="org.springframework.batch.item.file.transform.BeanWrapperFieldExtractor">
+						<property name="names" value="id, sem, percentage, dob" />
+					</bean>
+				</property>
+			</bean>
+		</property>
+	</bean>
+ 
+ 
+   <!--  job cfg -->
+   <batch:job id="job1" job-repository="jobRepository">
+      <batch:step id="step1" >
+          <batch:tasklet  transaction-manager="txMgmr">
+                <batch:chunk reader="jciReader"  processor="erProcessor" writer="ffiWriter"  commit-interval="2" />
+          </batch:tasklet>
+      </batch:step>
+   </batch:job>
+ 
+    
+</beans>

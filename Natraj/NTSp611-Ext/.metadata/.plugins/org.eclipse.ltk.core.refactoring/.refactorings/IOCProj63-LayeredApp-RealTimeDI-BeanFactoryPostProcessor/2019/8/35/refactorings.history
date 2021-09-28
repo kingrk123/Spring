@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;IOCProj63-LayeredApp-RealTimeDI-BeanFactoryPostProcessor&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj63-LayeredApp-RealTimeDI-BeanFactoryPostProcessor&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.nt.test.RealtimeDILayeredApplicationTest1.java&#x0D;&#x0A;     com.nt.test.RealtimeDILayeredApplicationTest2WithAC.java" description="Delete elements" element1="/src&lt;com.nt.test{RealtimeDILayeredApplicationTest1.java" element2="/src&lt;com.nt.test{RealtimeDILayeredApplicationTest2WithAC.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1567260968805" subPackages="false" version="1.0"/>
+</session>

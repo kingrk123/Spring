@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 6 elements from project &apos;MVC100pProj33-HospitalSearch-ACC&apos;&#x0D;&#x0A;- Original project: &apos;MVC100pProj33-HospitalSearch-ACC&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     aop-beans.xml&#x0D;&#x0A;     applicationContext.xml&#x0D;&#x0A;     dispatcher-servlet.xml&#x0D;&#x0A;     persistence-beans.xml&#x0D;&#x0A;     service-beans.xml&#x0D;&#x0A;     web.xml" description="Delete elements" element1="WebContent/WEB-INF/aop-beans.xml" element2="WebContent/WEB-INF/dispatcher-servlet.xml" element3="WebContent/WEB-INF/web.xml" element4="WebContent/WEB-INF/service-beans.xml" element5="WebContent/WEB-INF/applicationContext.xml" element6="WebContent/WEB-INF/persistence-beans.xml" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="6" stamp="1580218309723" subPackages="false" version="1.0"/>
+</session>

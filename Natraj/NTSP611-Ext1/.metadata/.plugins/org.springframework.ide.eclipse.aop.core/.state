@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringData-JPA-PASRepo"/>
+<aop-project name="MVCProj8-WishApp-AC-TwoContainers"/>
+<aop-project name="MVCProj3-FirstApp-ShowHome"/>
+<aop-project name="MVCProj4-WishApp-AC"/>
+<aop-project name="ORMProj2-Boot-CURDOperations"/>
+<aop-project name="MVCProj9-ListingTrendingJobs-AC-LayeredApp"/>
+<aop-project name="SpringData-JPA-JPARepo"/>
+<aop-project name="MVCProj10-HospitalSearch-ACC"/>
+<aop-project name="SpringData4-MongoRepository"/>
+<aop-project name="SpringData-JPA-CURDRepo"/>
+<aop-project name="ORMProj1-CURD-SpHB"/>
+<aop-project name="MVCProj6-WishApp-AC-UFVC"/>
+<aop-project name="MVCProj7-WishApp-AC-UFVC-Service"/>
+<aop-project name="MVCProj5-WishApp-AC-PVC"/>
+</aop-reference-model>

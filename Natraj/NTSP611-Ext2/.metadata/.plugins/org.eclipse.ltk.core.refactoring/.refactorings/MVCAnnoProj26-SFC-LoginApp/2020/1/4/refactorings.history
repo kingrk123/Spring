@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;MVCAnnoProj26-SFC-LoginApp&apos;&#x0D;&#x0A;- Original project: &apos;MVCAnnoProj26-SFC-LoginApp&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     New Text Document.txt&#x0D;&#x0A;     validation.properties.bak" description="Delete elements" element1="src/main/java/com/nt/commons/New Text Document.txt" element2="src/main/java/com/nt/commons/validation.properties.bak" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1579525939512" subPackages="false" version="1.0"/>
+</session>

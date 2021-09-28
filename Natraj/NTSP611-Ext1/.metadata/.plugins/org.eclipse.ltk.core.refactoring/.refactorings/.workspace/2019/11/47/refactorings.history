@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;DTxMgmtWebApp10-ServerMAnager&apos;" deleteContents="true" description="Delete resource &apos;DTxMgmtWebApp10-ServerMAnager&apos;" element1="/DTxMgmtWebApp10-ServerMAnager" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1574429457652"/>
+</session>

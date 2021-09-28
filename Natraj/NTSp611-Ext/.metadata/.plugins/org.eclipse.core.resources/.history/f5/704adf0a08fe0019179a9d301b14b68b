@@ -1,0 +1,21 @@
+package com.nt.advice;
+
+import java.io.FileWriter;
+import java.io.Writer;
+import java.lang.reflect.Method;
+import java.util.Arrays;
+
+import org.springframework.aop.ThrowsAdvice;
+
+public class CommongExceptionLogger_Grapher implements ThrowsAdvice {
+	
+	public  void afterThrowing(Method method,Object args[],Object target,IllegalArgumentException iae) throws Exception {
+	  Writer writer=null;
+	  //create new FileWriter
+	  writer=new FileWriter("e:/expLog.txt");
+	  writer.write(iae.toString()+" exception is raised in "+target.getClass().getName()+" for "+method.getName()+" with args"+Arrays.deepToString(args));
+	  writer.flush();
+	  writer.close();
+	}
+
+}

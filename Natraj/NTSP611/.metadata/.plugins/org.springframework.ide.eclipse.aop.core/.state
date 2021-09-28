@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="IOCProj19-DefaultBeanIds"/>
+<aop-project name="IOCProj17-CyclicDI-UsingSetterInjection-Constructor Injection"/>
+<aop-project name="IOCProj26-NullInjection-BeanAlias"/>
+<aop-project name="IOCProj29-DependencyLookup"/>
+<aop-project name="IOCProj23-BeanIneritence"/>
+<aop-project name="IOCProj16-CyclicDI-UsingSetterInjection"/>
+<aop-project name="IOCProj18-InnerBeanCfgs"/>
+<aop-project name="IOCProj27-CollectionMerging"/>
+<aop-project name="IOCProj22-NullInjection"/>
+<aop-project name="IOCProj31-DependencyLookup3-WithOutSecondIOCContainer"/>
+<aop-project name="IOCProj21-CollectionInjection"/>
+<aop-project name="IOCProj15-CyclicDI-UsingConstructorInjection"/>
+<aop-project name="IOCProj23-BeanIneritence-UsingConstructorInjection"/>
+<aop-project name="IOCProj14-ResolvingConstructorParams"/>
+<aop-project name="IOCProj30-DependencyLookup2-WithOutSecondIOCContainer"/>
+</aop-reference-model>

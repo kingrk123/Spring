@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="b1" class="com.nt.beans.Bike" abstract="true">
+	<constructor-arg name="model" value="pulsor"/>
+	<constructor-arg name="company" value="Bajaj"/>
+	<constructor-arg name="engineCC" value="150"/>
+	<constructor-arg name="fuelTankCapacity" value="13"/>
+</bean>
+<bean id="b2" class="com.nt.beans.Bike" parent="b1">
+	<constructor-arg name="owner" value="Kingrk"/>
+	<constructor-arg name="color" value="red"/>
+	<constructor-arg name="engineNo" value="122345"/>
+	<constructor-arg name="regNo" value="MH223"/>
+</bean>
+<bean id="b3" class="com.nt.beans.Bike" parent="b1">
+	<constructor-arg name="owner" value="PURU"/>
+	<constructor-arg name="color" value="Black"/>
+	<constructor-arg name="engineNo" value="1223345"/>
+	<constructor-arg name="regNo" value="MH22322"/>
+</bean>
+
+</beans>

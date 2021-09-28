@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="sysdate" class="java.util.Date"/>
+<bean id="dojdate" class="java.util.Date">
+	<property name="year" value="2020"/>
+	<property name="month" value="2"/>
+	<property name="date" value="10"/>
+</bean>
+<bean id="dobdate" class="java.util.Date">
+	<property name="year" value="1996"/>
+	<property name="month" value="9"/>
+	<property name="date" value="30"/>
+</bean>
+	<!-- cfgs of college -->
+<bean id="clg" class="com.nt.beans.College">
+	<property name="student">
+		<list value-type="java.lang.String">
+			<value>KINRK</value>
+			<value>PURU</value>
+			<value>PANKAJ</value>
+			<value>SAWANT</value>
+		</list>
+	</property>
+	<property name="dates">
+		<list value-type="java.util.Date">
+			<ref bean="sysdate"/>
+			<ref bean="dojdate"/>
+			<ref bean="dobdate"/>
+		</list>
+	</property>
+</bean>
+	<!-- cfgs of Marks -->
+<bean id="mk" class="com.nt.beans.Marks">
+	<property name="marks">
+		<list>
+			<value>99</value>
+			<value>98</value>
+			<value>98</value>
+		</list>
+	</property>
+	<property name="dates">
+		<array>
+			<ref bean="sysdate"/>
+			<ref bean="dojdate"/>
+			<ref bean="dobdate"/>
+		</array>
+	</property>
+</bean>
+	<!-- cfgs of Personal Info -->
+<bean id="pi" class="com.nt.beans.Personal_Info">
+	<property name="phoneNo">
+		<set value-type="java.lang.Long">
+			<value>9623240111</value> 
+			<value>9420668111</value>
+			<value>7276768040</value>
+		</set>
+	</property>
+	<property name="dates">
+		<set value-type="java.util.Dates">
+			<ref bean="sysdate"/>
+			<ref bean="dojdate"/>
+			<ref bean="dobdate"/>
+		</set>
+	</property>
+</bean>	
+	<!-- cfgs of Facuty Info -->
+<bean id="fi" class="com.nt.beans.Faculties_Info">
+	<property name="facutySubjects">
+		<props>
+			<prop key="HK">Core Java</prop>
+			<prop key="Nataraj"> Adv Java</prop>
+			<prop key="Jaisawal">CRT</prop>
+			<prop key="S.Sharma">UI</prop>
+		</props>
+	</property>
+</bean>
+	<!-- cfgs of Fruits Store -->
+<bean id="fs" class="com.nt.beans.FruitStore">
+	<property name="fruits">
+		<map value-type="java.lang.String" key-type="java.lang.String">
+			<entry key="banana" value="yellow"/>
+			<entry key="grapes" value="green"/>
+			<entry key="grp" value="black"/>
+		</map>
+	</property>
+	<property name="specialdates">
+		<map value-type="java.util.Date" key-type="java.lang.String">
+			<entry key="today" value-ref="sysdate"/>
+			<entry key="doj" value-ref="dojdate"/>
+			<entry key="dob" value-ref="dobdate"/>
+		</map>
+	</property>
+	<property name="specialdates1">
+		<map key-type="java.util.Date" value-type="java.lang.String">
+			<entry key-ref="sysdate" value="today"/>
+			<entry key-ref="dojdate" value="doj"/>
+			<entry key-ref="dobdate" value="dob"></entry> 
+		</map>
+	</property>
+</bean>
+</beans>

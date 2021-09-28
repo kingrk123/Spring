@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item key="project_location" value="G:\Worskpaces\Spring\NTSp611-Ext\DTxMgmtProj8-Atomokios-standalone"/>
+		<item key="use_default_location" value="true"/>
+		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(VERSION(6.0))"/>
+		<item key="auto_sync" value="true"/>
+		<item key="show_console_view" value="true"/>
+		<item key="show_executions_view" value="true"/>
+	</section>
+</section>

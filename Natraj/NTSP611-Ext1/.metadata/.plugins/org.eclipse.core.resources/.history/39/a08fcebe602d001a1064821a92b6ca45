@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MVCProj17-AbstractWizardFormController-Naukri">
+        <property name="context-root" value="MVCProj17-AbstractWizardFormController-Naukri"/>
+        <property name="java-output-path" value="/MVCProj17-AbstractWizardFormController-Naukri/bin/default"/>
+    </wb-module>
+</project-modules>

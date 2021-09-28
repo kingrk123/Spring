@@ -1,0 +1,45 @@
+package com.nt.controller;
+
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.nt.service.DownloadFilesMgmtService;
+
+@Controller
+public class DownloadController {
+	@Autowired
+	private DownloadFilesMgmtService service;
+	
+	@RequestMapping("/home.htm")
+	public String  showHomePage() {
+		return "welcome";
+	}
+	
+	
+	@RequestMapping("/list_files.htm")
+	public   String listFiles(Map<String,Object> map,HttpServletRequest req) {
+		List<String> listOfFiles=null;
+		ServletContext sc=null;
+		String uploadStore=null;
+		//get ServletContext object
+		sc=req.getServletContext();
+		//read context param value
+		uploadStore=sc.getInitParameter("UPLOAD_STORE");
+		//use Service
+		listOfFiles=service.getAllFiles(uploadStore);
+		//keep all files as model attribute
+		map.put("filesList",listOfFiles);
+		//return lvn
+		return "download_files";
+		
+	}
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;AspectjAnnoAOPProj6-AroundAdvice/src/main/java/com.nt.aspect&apos;&#x0D;&#x0A;- Original project: &apos;AOPProj2-SpringAOPDecl-AroundAdvice-ProxyInterface-Jdk library&apos;&#x0D;&#x0A;- Destination element: &apos;AspectjAnnoAOPProj6-AroundAdvice/src/main/java/com.nt.aspect&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.nt.advice.CacheAdvice.java&#x0D;&#x0A;     com.nt.advice.AroundLoggingAdvice.java" description="Copy compilation units" destination="=AspectjAnnoAOPProj6-AroundAdvice/src\/main\/java&lt;com.nt.aspect" element1="/src\/main\/java&lt;com.nt.advice{CacheAdvice.java" element2="/src\/main\/java&lt;com.nt.advice{AroundLoggingAdvice.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1573477478982" units="2" version="1.0"/>
+</session>

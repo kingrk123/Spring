@@ -1,0 +1,49 @@
+package com.nt.contoller;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.web.servlet.mvc.SimpleFormController;
+
+public class RegistrationController extends SimpleFormController {
+
+	@Override
+	public Map referenceData(HttpServletRequest request) throws Exception {
+		Map<String,List<?>> dataMap=new HashMap();
+		List<String> genderList=null;
+		List<String> hobiesList=null;
+		List<String> countriesList=null;
+		List<String> colorsList=null;
+		System.out.println("RegistrationController.referenceData(-)");
+		genderList=new ArrayList();
+		genderList.add("male"); genderList.add("female");
+		dataMap.put("genderInfo",genderList);
+		
+		hobiesList=new ArrayList();
+		hobiesList.add("roaming");hobiesList.add("eating");
+		hobiesList.add("dancing");hobiesList.add("sleeping");
+		hobiesList.add("surfing");
+		dataMap.put("hobiesInfo",hobiesList);
+		
+		countriesList=new ArrayList();
+		countriesList.add("india");countriesList.add("pakistan");
+		countriesList.add("Austrilia");countriesList.add("nepal");
+		countriesList.add("srilanka");
+		dataMap.put("countriesInfo",countriesList);
+		
+		
+		hobiesList=new ArrayList();
+		hobiesList.add("roaming");hobiesList.add("eating");
+		hobiesList.add("dancing");hobiesList.add("sleeping");
+		hobiesList.add("surfing");
+		dataMap.put("hobiesInfo",hobiesList);
+		
+		
+		
+	}
+	
+}

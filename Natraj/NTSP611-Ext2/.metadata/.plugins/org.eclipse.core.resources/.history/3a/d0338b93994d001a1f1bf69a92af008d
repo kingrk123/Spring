@@ -1,0 +1,21 @@
+package com.nt.service;
+
+import java.util.Arrays;
+
+public class OrderServiceImpl implements OrderService {
+
+	@Override
+	public String generateBill(String[] items, float[] prices,String customerEmail) {
+		float billAmt=0.0f;
+		String msg=null;
+		for(float price:prices) {
+			billAmt=billAmt+price;
+		}
+		msg=Arrays.deepToString(items)+" having Prices"+Arrays.toString(prices)+" bill Amount ::"+billAmt;
+		triggerMail(msg,"billDetails",customerEmail);
+		return msg;
+	}
+	
+	private void   
+
+}

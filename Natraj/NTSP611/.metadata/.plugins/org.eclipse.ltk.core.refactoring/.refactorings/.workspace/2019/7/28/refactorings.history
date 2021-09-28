@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IOCProj15-CyclicDI&apos; to &apos;IOCProj15-CyclicDI-UsingConstructorInjection&apos;" description="Rename resource &apos;IOCProj15-CyclicDI&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IOCProj15-CyclicDI" name="IOCProj15-CyclicDI-UsingConstructorInjection" stamp="1562938994594" updateReferences="true"/>
+</session>

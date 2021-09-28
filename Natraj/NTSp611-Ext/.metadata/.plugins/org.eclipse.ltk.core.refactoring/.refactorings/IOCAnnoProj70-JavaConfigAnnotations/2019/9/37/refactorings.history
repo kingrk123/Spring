@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nt.test.AutoWiredTest&apos; to &apos;JavaConfigTest&apos;&#x0D;&#x0A;- Original project: &apos;IOCAnnoProj70-JavaConfigAnnotations&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.test.AutoWiredTest&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nt.test.JavaConfigTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AutoWiredTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.nt.test{AutoWiredTest.java[AutoWiredTest" matchStrategy="1" name="JavaConfigTest" qualified="false" references="true" similarDeclarations="false" stamp="1568034883134" textual="false" version="1.0"/>
+</session>

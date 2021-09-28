@@ -1,0 +1,20 @@
+package com.nt.config;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AOPConfig {
+
+	@Autowired
+	private DataSource ds;
+	@Autowired
+	private  BankService service;
+	
+	
+	
+	
+
+}

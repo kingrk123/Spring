@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IOCProj42-LayeredApp-RealTimeDI-AutoEID-PropertiesFile/src/com/nt/commons/jdbc.properties&apos; to &apos;jdbc1.properties&apos;" description="Rename resource &apos;jdbc.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/nt/commons/jdbc.properties" name="jdbc1.properties" stamp="1565273897501" updateReferences="true"/>
+</session>

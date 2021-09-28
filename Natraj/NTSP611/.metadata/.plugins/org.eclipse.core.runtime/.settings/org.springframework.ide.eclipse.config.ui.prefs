@@ -1,0 +1,11 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCProj14-ResolvingConstructorParams/src/main/java/com/nt/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCProj15-CyclicDI-UsingConstructorInjection/src/main/java/com/nt/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCProj16-CyclicDI-UsingSetterInjection/src/main/java/com/nt/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCProj17-CyclicDI-UsingSetterInjection-Constructor\ Injection/src/main/java/com/nt/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCProj20-LayeredApp-RealTimeDI/src/com/nt/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCProj21-CollectionInjection/src/main/java/com/nt/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCProj29-DependencyLookup/src/main/java/com/nt/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/IOCProj30-DependencyLookup2-WithOutSecondIOCContainer/src/main/java/com/nt/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/NewIOCProj12-LayeredApp-RealTimeDI-AutoEID-CollectionInjection/src/com/nt/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/NewIOCProj13-LayeredApp-RealTimeDI-AutoEID-Mysql/src/com/nt/cfgs/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1

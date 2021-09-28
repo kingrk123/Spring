@@ -1,0 +1,26 @@
+package com.nt.contoller;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.web.servlet.mvc.SimpleFormController;
+
+public class RegistrationController extends SimpleFormController {
+
+	@Override
+	public Map referenceData(HttpServletRequest request) throws Exception {
+		Map<String,List<?>> dataMap=new HashMap();
+		List<String> genderList=null;
+		System.out.println("RegistrationController.referenceData(-)");
+		genderList=new ArrayList();
+		genderList.add("male"); genderList.add("female");
+		dataMap.put("genderInfo",genderList);
+		
+		
+	}
+	
+}

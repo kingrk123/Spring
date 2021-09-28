@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+  <!--Dependent classes cfgs-->
+  <bean id="dtdc" class="com.nt.beans.DTDC"/>
+  <bean id="bdart" class="com.nt.beans.BlueDart"/>
+  <!-- Target classes cfgs -->
+  <bean id="fkart" class="com.nt.beans.Flipkart"/>  	
+  
+
+</beans>

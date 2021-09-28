@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="G:\Worskpaces\Spring\NTSp611-Ext\IOCAnnoProj69-LayeredApp-RealTimeDI"/>
+			<item value="F:\Worskpaces\Spring\NTSp611-Ext\IOCAnnoProj71-JavaConfigAnnotations2\src\main\java\com\nt\test\JavaConfigTest.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.nt.test"/>
+		</list>
+		<list key="groupId">
+			<item value="nit"/>
+		</list>
+		<list key="artifactId">
+			<item value="DAOProj12-MappingSQLOperations"/>
+			<item value="IOCProj89-SPEL-XML"/>
+			<item value="IOCProj76-BasicApp"/>
+			<item value="IOCAnnoProj72-SpringBeanLifeCycle"/>
+			<item value="IOCAnnoProj67-RequiredAnnotation"/>
+			<item value="IOCProj60-BeanPostProcessWithLMI-LayeredApp"/>
+			<item value="IOCProj58-MethodReplacer"/>
+			<item value="IOCProj50-ICCScoreComp-ServiceLocator-FactoryBean"/>
+			<item value="IOCProj48-FactoryBean-POC"/>
+			<item value="IOCProj46-BeanLifeCycle-DeclarativeApproach"/>
+			<item value="IOCProj43-CoreJAva118n"/>
+			<item value="IOCProj39-DependencyCheck"/>
+			<item value="IOCProj38-NestedBeanFactory-LayeredApp"/>
+			<item value="IOCProj32-FactoryMethodBeanInstantation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

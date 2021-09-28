@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.ResultSetExtractor"/>
+<fullyQualifiedTypeName name="com.nt.dao.JobOpeningsDAO"/>
+<fullyQualifiedTypeName name="com.nt.bo.JobDetailsBO"/>
+<fullyQualifiedTypeName name="com.nt.dto.JobDetailsDTO"/>
+<fullyQualifiedTypeName name="com.nt.service.JobPortalMgmtService"/>
+<fullyQualifiedTypeName name="com.nt.dto.PatientDetailsResultDTO"/>
+<fullyQualifiedTypeName name="com.nt.service.PatientMgmtService"/>
+<fullyQualifiedTypeName name="com.nt.command.PatientDetailsInfoCommand"/>
+<fullyQualifiedTypeName name="com.nt.dto.PatientDetailsInputDTO"/>
+<fullyQualifiedTypeName name="com.nt.command.ItemDetailsCommand"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapperResultSetExtractor"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.BeanPropertyRowMapper"/>
+<fullyQualifiedTypeName name="com.nt.bo.PatientDetailsBO"/>
+<fullyQualifiedTypeName name="com.nt.dao.PatientDAO"/>
+<fullyQualifiedTypeName name="com.nt.dto.PatientDetailsDTO"/>
+<fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
+<fullyQualifiedTypeName name="com.nt.service.HospitalMgmtService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.validation.Validator"/>
+<fullyQualifiedTypeName name="com.nt.command.RegisterCommand"/>
+<fullyQualifiedTypeName name="com.nt.command.JobSeekerInfoCommand"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+<fullyQualifiedTypeName name="lombok.ToString"/>
+</qualifiedTypeNameHistroy>

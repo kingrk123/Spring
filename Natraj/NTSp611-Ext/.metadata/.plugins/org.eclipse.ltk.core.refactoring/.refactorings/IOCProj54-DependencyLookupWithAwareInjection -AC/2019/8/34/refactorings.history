@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nt.test.TraditionalDependencyLookupTest&apos; to &apos;AwareInjectionTest&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj54-DependencyLookupWithAwareInjection -AC&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.test.TraditionalDependencyLookupTest&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nt.test.AwareInjectionTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TraditionalDependencyLookupTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.nt.test{TraditionalDependencyLookupTest.java[TraditionalDependencyLookupTest" matchStrategy="1" name="AwareInjectionTest" qualified="false" references="true" similarDeclarations="false" stamp="1566565882939" textual="false" version="1.0"/>
+</session>

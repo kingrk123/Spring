@@ -1,0 +1,14 @@
+
+Jan 30, 2020 19:37:44.27 NEW SESSION
+Jan 30, 2020 19:37:44.27 [2984:5612:0130/193744.238:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Jan 30, 2020 19:48:14.57 [2984:5612:0130/194814.573:ERROR:socket_stream.cc(218)] Closing stream with result -2
+
+Feb 01, 2020 18:44:23.35 NEW SESSION
+Feb 01, 2020 18:44:23.35 [656:7288:0201/184423.349:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Feb 01, 2020 18:44:23.36 [656:7288:0201/184423.351:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2020 18:44:46.45 [656:7288:0201/184446.455:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2020 18:45:27.79 [656:7288:0201/184527.797:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+Feb 01, 2020 18:58:36.82 [656:7288:0201/185836.828:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Feb 01, 2020 19:11:22.29 [656:7288:0201/191122.298:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Feb 01, 2020 19:26:22.81 [656:7288:0201/192622.819:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Feb 01, 2020 19:41:24.41 [656:7288:0201/194124.409:ERROR:socket_stream.cc(218)] Closing stream with result -2

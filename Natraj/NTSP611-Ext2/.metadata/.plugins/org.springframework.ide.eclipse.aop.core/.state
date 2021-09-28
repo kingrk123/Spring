@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringBatchBootProj4-CSVToDB"/>
+<aop-project name="MVCAnnoProj26-SFC-LoginApp"/>
+<aop-project name="MVCProj20-WishApp-ViewResolvers"/>
+<aop-project name="SpringBootMail-SendMail-Attachment"/>
+<aop-project name="SpringSecurityApp1-NonMVCApp"/>
+<aop-project name="TwitterBoot"/>
+<aop-project name="MVCBootProj40-RegistrationApp-PRG-ExceptionHandling"/>
+<aop-project name="MVCBootProj35-WishApp"/>
+<aop-project name="SpringBatchBootProj5-CSVToXML"/>
+<aop-project name="FaceBookBoot"/>
+<aop-project name="SpringSecurityBootApp4"/>
+<aop-project name="SpringSecurityApp3-MVCWishApp-100pCode"/>
+<aop-project name="MVCBoot37-MiniProject-AllControllers"/>
+<aop-project name="SpringSecurityApp5-MVCWishApp-LDAP"/>
+<aop-project name="MVCProj9-ListingTrendingJobs-AC-LayeredApp"/>
+<aop-project name="SpringBatchApp1"/>
+<aop-project name="MVCProj10-HospitalSearch-ACC"/>
+<aop-project name="MVCBootProj38-LoginApp-SpringORM"/>
+<aop-project name="MVCBootProj36-WishApp-Improved"/>
+<aop-project name="SpringSecurityApp2-MVCWishApp"/>
+<aop-project name="SpringBootMail-SendMail"/>
+<aop-project name="MVCAnnoProj26-SFC-LoginApp-Validations-Annotations"/>
+<aop-project name="MVCBootProj39-LoginApp-SpringDataJPA"/>
+<aop-project name="SpringBatchApp2-DBToCsv"/>
+</aop-reference-model>

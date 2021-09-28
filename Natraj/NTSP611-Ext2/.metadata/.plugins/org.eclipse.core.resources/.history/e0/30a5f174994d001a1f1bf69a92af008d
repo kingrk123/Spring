@@ -1,0 +1,11 @@
+package com.nt.service;
+
+public class OrderServiceImpl implements OrderService {
+
+	@Override
+	public String generateBill(String[] items, float[] prices) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

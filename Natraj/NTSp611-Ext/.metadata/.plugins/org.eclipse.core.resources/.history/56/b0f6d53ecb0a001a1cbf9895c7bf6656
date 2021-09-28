@@ -1,0 +1,3 @@
+#Datasource cfg
+spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+

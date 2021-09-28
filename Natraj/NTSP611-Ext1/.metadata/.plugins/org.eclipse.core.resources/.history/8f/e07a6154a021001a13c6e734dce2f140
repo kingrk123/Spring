@@ -1,0 +1,22 @@
+package com.nt.service;
+
+import java.util.List;
+
+import com.nt.dao.PatientInfoDAO;
+import com.nt.dto.PatientDetailsInputDTO;
+import com.nt.dto.PatientDetailsResultDTO;
+
+public class PatientMgmtServiceImpl implements PatientMgmtService {
+	private PatientInfoDAO dao;
+
+	public PatientMgmtServiceImpl(PatientInfoDAO dao) {
+		this.dao = dao;
+	}
+
+	@Override
+	public List<PatientDetailsResultDTO> search(PatientDetailsInputDTO idto) {
+	
+		return null;
+	}
+
+}

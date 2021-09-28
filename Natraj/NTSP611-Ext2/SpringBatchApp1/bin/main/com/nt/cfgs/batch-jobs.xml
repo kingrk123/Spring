@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:batch="http://www.springframework.org/schema/batch"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/batch https://www.springframework.org/schema/batch/spring-batch-3.0.xsd">
+
+   <!-- Cfg Item Reader -->
+   <bean id="bkReader"  class="com.nt.reader.BooksItemReader">
+       <property name="booksList">
+           <list>
+             <value>CRJ</value>
+             <value>TIJ</value>
+             <value>EJ</value>
+             <value>ESJ</value>
+           </list>
+       </property>
+   </bean>
+   
+  <!-- Cfg Item Processor -->
+  <bean id="bkProcessor"  class="com.nt.processor.BooksItemProcessor"/>
+  
+  <!-- Cfg ItemWriter -->
+  <bean id="bkWriter"  class="com.nt.writer.BooksItemWriter"/>
+  
+  <!-- Batch job cfg -->
+  <batch:job id="job1"  job-repository="jobRepository" >
+     <batch:step id="step1">
+        <batch:tasklet transaction-manager="txMgmr">
+              <batch:chunk reader="bkReader"  processor="bkProcessor" writer="bkWriter"  commit-interval="2"/>
+        </batch:tasklet>
+     </batch:step>
+  </batch:job>
+  
+</beans>

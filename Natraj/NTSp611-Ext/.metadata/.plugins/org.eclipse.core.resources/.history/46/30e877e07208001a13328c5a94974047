@@ -1,0 +1,17 @@
+
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+  // https://mvnrepository.com/artifact/org.springframework/spring-context-support
+compile group: 'org.springframework', name: 'spring-context-support', version: '5.2.1.RELEASE'
+  // https://mvnrepository.com/artifact/org.springframework/spring-jdbc
+compile group: 'org.springframework', name: 'spring-jdbc', version: '5.2.1.RELEASE'
+  
+}

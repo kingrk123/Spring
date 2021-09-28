@@ -1,0 +1,14 @@
+INDEX VERSION 1.4+G:\Worskpaces\Spring\NTSp611-Ext\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+384271239.index
+2356142371.index
+4209943986.index
+257463015.index
+2087579083.index
+1856239358.index
+2196171785.index
+1204385578.index
+3258081331.index
+3257173044.index
+2830134837.index
+255179919.index
+182151621.index

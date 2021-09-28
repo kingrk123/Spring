@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" default-autowire-candidates="tp,tp1" default-autowire="no">
+<!-- Dependent bean cfgs -->
+	<bean id="tp" class="com.nt.beans.TourPlan">
+		<property name="places">
+			<list>
+			 	<value>Hydrabad</value>
+				<value>Banglore</value>
+				<value>Pune</value>
+			</list>
+		</property>	
+	</bean>
+	<bean id="tp2" class="com.nt.beans.TourPlan">
+		<property name="places">
+			<list>
+			 	<value>Degloor</value>
+				<value>Aurangabad</value>
+				<value>Hyderabad</value>
+			</list>
+		</property>	
+	</bean>
+	<bean id="tp1" class="com.nt.beans.TourPlan" primary="true">
+		<property name="places">
+			<list>
+			 	<value>Shirdi</value>
+				<value>Tirupati</value>
+				<value>Golden Temple</value>
+			</list>
+		</property>	
+	</bean>
+	<bean id="tAgent" class="com.nt.beans.TravelAgent" autowire="constructor">
+		<property name="name" value="TT"/>
+		</bean>
+</beans>

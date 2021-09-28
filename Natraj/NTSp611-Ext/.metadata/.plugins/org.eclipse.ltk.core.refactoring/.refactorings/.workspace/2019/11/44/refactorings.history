@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AOPProj5-SpringAOPDecl-AfterAdvice&apos; to &apos;AOPProj5-SpringAOPDecl-AfterAdvice-DiscountCupon&apos;" description="Rename resource &apos;AOPProj5-SpringAOPDecl-AfterAdvice&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/AOPProj5-SpringAOPDecl-AfterAdvice" name="AOPProj5-SpringAOPDecl-AfterAdvice-DiscountCupon" stamp="1572701316722" updateReferences="true"/>
+</session>

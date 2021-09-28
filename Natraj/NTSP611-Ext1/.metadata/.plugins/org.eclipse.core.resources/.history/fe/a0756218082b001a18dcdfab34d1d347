@@ -1,0 +1,7 @@
+package com.nt.contoller;
+
+import org.springframework.web.servlet.mvc.SimpleFormController;
+
+public class RegistrationController extends SimpleFormController {
+
+}

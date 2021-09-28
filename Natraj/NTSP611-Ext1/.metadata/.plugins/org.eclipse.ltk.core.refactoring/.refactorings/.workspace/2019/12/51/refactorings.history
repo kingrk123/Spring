@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MVCProj11-StudentRegistrationApp-SFC&apos; to &apos;MVCProj11-RegistrationApp-SFC&apos;" description="Rename resource &apos;MVCProj11-StudentRegistrationApp-SFC&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MVCProj11-StudentRegistrationApp-SFC" name="MVCProj11-RegistrationApp-SFC" stamp="1576934233847" updateReferences="true"/>
+</session>

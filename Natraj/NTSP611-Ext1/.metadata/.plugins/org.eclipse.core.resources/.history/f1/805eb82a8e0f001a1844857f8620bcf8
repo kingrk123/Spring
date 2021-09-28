@@ -1,0 +1,25 @@
+package com.nt.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Employee")
+public class EmployeeHLO implements Serializable {
+	@Id
+	@Column(name="EID")
+	private int eid;
+	@Column(name="ENAME")
+	private String ename;
+	@Column(name="EADD")
+	private String eadd;
+	@Column(name="salary")
+	private float salary;
+	
+	
+
+}

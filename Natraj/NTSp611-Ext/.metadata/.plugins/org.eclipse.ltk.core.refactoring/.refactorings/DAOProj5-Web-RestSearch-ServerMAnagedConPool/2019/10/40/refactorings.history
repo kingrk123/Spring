@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DAOProj5-Web-RestSearch-ServerMAnagedConPool/src/main/webapp/print.jpg&apos; to &apos;print1.jpg&apos;" description="Rename resource &apos;print.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/print.jpg" name="print1.jpg" stamp="1569940357679" updateReferences="true"/>
+</session>
